@@ -4,7 +4,7 @@ import { publicRoutes } from "./routes/routes";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react_portfolio">
       <ConfigProvider>
         <AntdApp>
         <Routes>
